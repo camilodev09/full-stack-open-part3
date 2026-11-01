@@ -4,6 +4,7 @@ const morgan = require('morgan')
 const app = express()
 
 // Middleware crucial para parsear JSON entrante en peticiones POST
+app.use(cors())
 app.use(express.json())
 
 // Middleware morgan
