@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+*.txt
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS Generated Files
+.DS_Store
+Thumbs.db

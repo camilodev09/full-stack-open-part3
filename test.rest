@@ -1,0 +1,24 @@
+### 1. Obtener todos los contactos (GET)
+GET http://localhost:3001/api/persons
+
+###
+
+### 2. Crear un nuevo contacto (POST)
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Camilo Bautista",
+  "number": "999-888-777"
+}
+
+###
+
+### 3. Obtener un contacto por ID específico (GET)
+# (Reemplaza el hash con un ID real que devuelva tu base de datos)
+GET http://localhost:3001/api/persons/64f1b2e...
+
+###
+
+### 4. Eliminar un contacto por ID (DELETE)
+DELETE http://localhost:3001/api/persons/64f1b2e...
